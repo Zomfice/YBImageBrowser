@@ -34,7 +34,7 @@
 }
 
 - (void)yb_hide:(BOOL)hide {
-    YBIBImageData *data = self.yb_currentData();
+    //YBIBImageData *data = self.yb_currentData();
     if (hide) {
         self.pageControl.hidden = YES;
     } else {
