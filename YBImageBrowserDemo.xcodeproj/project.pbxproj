@@ -70,6 +70,7 @@
 		23F26AD222D7208700C27C21 /* YBIBVideoActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F26AD122D7208700C27C21 /* YBIBVideoActionBar.m */; };
 		23F5A00D23161D51003F0FAE /* YBIBDefaultWebImageMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F5A00C23161D51003F0FAE /* YBIBDefaultWebImageMediator.m */; };
 		23FF103622F6B6FC0091331F /* TestFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FF103522F6B6FC0091331F /* TestFController.m */; };
+		EF64C5EF2376C0F000C4138A /* YBIBToolCustomHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF64C5EE2376C0F000C4138A /* YBIBToolCustomHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +220,8 @@
 		23FF103522F6B6FC0091331F /* TestFController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFController.m; sourceTree = "<group>"; };
 		97542AA3FE46C41411B15C5D /* Pods_YBImageBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBImageBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7455F1D491BFCA198544CA1 /* Pods-YBImageBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBImageBrowserDemo.debug.xcconfig"; path = "Target Support Files/Pods-YBImageBrowserDemo/Pods-YBImageBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF64C5ED2376C0F000C4138A /* YBIBToolCustomHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBIBToolCustomHandler.h; sourceTree = "<group>"; };
+		EF64C5EE2376C0F000C4138A /* YBIBToolCustomHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBIBToolCustomHandler.m; sourceTree = "<group>"; };
 		F2A1E10DD2C568E5493980E0 /* Pods-YBImageBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBImageBrowserDemo.release.xcconfig"; path = "Target Support Files/Pods-YBImageBrowserDemo/Pods-YBImageBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -378,6 +381,8 @@
 			children = (
 				23C1F89222D1CB2200793CAA /* YBIBToolViewHandler.h */,
 				23C1F89322D1CB2200793CAA /* YBIBToolViewHandler.m */,
+				EF64C5ED2376C0F000C4138A /* YBIBToolCustomHandler.h */,
+				EF64C5EE2376C0F000C4138A /* YBIBToolCustomHandler.m */,
 				23ABA2C322D0CAD100535F6A /* YBIBSheetView.h */,
 				23ABA2C422D0CAD100535F6A /* YBIBSheetView.m */,
 				23ABA2C622D0CAE200535F6A /* YBIBTopView.h */,
@@ -747,6 +752,7 @@
 				23C282EF22D5F43C0084E9E6 /* YBIBVideoData.m in Sources */,
 				23ABA2B622D0BAB700535F6A /* YBIBImageCell.m in Sources */,
 				23ABA2AA22D0BAB700535F6A /* YBIBAnimatedTransition.m in Sources */,
+				EF64C5EF2376C0F000C4138A /* YBIBToolCustomHandler.m in Sources */,
 				23556E4322D77F43004178DA /* YBIBContainerView.m in Sources */,
 				23ABA2A722D0BAB700535F6A /* YBIBAuxiliaryViewHandler.m in Sources */,
 				23F26ACF22D7206900C27C21 /* YBIBVideoTopBar.m in Sources */,

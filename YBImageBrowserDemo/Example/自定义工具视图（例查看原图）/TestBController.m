@@ -9,6 +9,7 @@
 #import "TestBController.h"
 #import "YBImageBrowser.h"
 #import "TestToolViewHandler.h"
+#import "YBIBToolCustomHandler.h"
 
 @interface TestBController ()
 
@@ -48,7 +49,7 @@
     
     YBImageBrowser *browser = [YBImageBrowser new];
     // 自定义工具栏
-    browser.toolViewHandlers = @[TestToolViewHandler.new];
+    browser.toolViewHandlers = @[YBIBToolCustomHandler.new];//@[TestToolViewHandler.new];
     browser.dataSourceArray = datas;
     browser.currentPage = index;
     [browser show];
