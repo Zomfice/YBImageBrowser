@@ -40,6 +40,7 @@
     } else {
         self.pageControl.hidden = NO;
     }
+    self.pageControl.hidden = self.yb_totalPage() <= 1;
 }
 
 - (BOOL)currentDataShouldHideSaveButton {
@@ -93,7 +94,7 @@
     if (!_pageControl) {
         _pageControl = [UIPageControl new];
         _pageControl.enabled = NO;
-        _pageControl.backgroundColor = [UIColor cyanColor];
+        //_pageControl.backgroundColor = [UIColor cyanColor];
     }
     return _pageControl;
 }
